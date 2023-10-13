@@ -36,3 +36,13 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
+
+# resource "aws_instance" "web2" {
+#   ami                     = var.amis[var.region]
+#   instance_type           = var.int_type
+#   disable_api_termination = var.disable_api_termination
+
+#   tags = {
+#     Name = "HelloWorld2"
+#   }
+# }
